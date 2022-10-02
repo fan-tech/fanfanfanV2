@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 django-markdownx = "==4.0.0b1"
 django-cors-headers = "*"
+django-environ = "*"
 
 [dev-packages]
 
