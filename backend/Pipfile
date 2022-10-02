@@ -9,6 +9,8 @@ djangorestframework = "*"
 django-markdownx = "==4.0.0b1"
 django-cors-headers = "*"
 django-environ = "*"
+markdown = "*"
+django-filter = "*"
 
 [dev-packages]
 

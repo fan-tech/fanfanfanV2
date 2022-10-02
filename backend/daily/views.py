@@ -37,6 +37,7 @@ class DetailDaily(APIView):
             res = {
                 'id': daily.id,
                 'date': daily.date,
+                "done": daily.done,
                 'wanna_do': daily.wanna_do,
                 'other': daily.other,
                 'summary': daily.summary,

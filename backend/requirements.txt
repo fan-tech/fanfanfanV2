@@ -1,8 +1,11 @@
 asgiref==3.5.2
 autopep8==1.7.0
 Django==4.1.1
+django-cors-headers==3.13.0
+django-environ==0.9.0
 django-markdownx==4.0.0b1
 djangorestframework==3.14.0
+environ==1.0
 Markdown==3.4.1
 Pillow==9.2.0
 pycodestyle==2.9.1

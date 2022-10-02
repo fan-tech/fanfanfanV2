@@ -34,9 +34,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',  # これと
-    'corsheaders',  # これ
-    'markdownx',
+    'corsheaders',
+    'markdownx',  # これと
     'daily',  # これ
+
 ]
 
 REST_FRAMEWORK = {  # これも追加

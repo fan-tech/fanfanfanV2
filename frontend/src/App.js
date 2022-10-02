@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Header } from './Header';
+import { Top } from './Top';
+import { DailyTop } from './daily/pages/DailyTop';
+import { CategoryView } from './daily/pages/CategoryView';
+import { DailyDetail } from './daily/pages/DailyDetail';
+import { Profile } from './Profile';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+          <Header />
+          <div>
+            <Routes>
+              <Route path="/" element={<Top />} />
+              <Route path="/daily" element={<DailyTop />} />
+              <Route path="daily/:id" element={<DailyDetail />} />
+              <Route  path="/daily/category/:cat" element={<CategoryView />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route render={() => <h4>not found</h4>} />
+            </Routes>
+          </div>
+      </Router>
     </div>
   );
 }
