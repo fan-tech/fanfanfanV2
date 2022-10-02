@@ -7,12 +7,13 @@ import { CategoryView } from './daily/pages/CategoryView';
 import { DailyDetail } from './daily/pages/DailyDetail';
 import { Profile } from './Profile';
 
+
 function App() {
   return (
     <div>
       <Router>
           <Header />
-          <div>
+          <div　className='container'>
             <Routes>
               <Route path="/" element={<Top />} />
               <Route path="/daily" element={<DailyTop />} />

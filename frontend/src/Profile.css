@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Noto+Serif+JP:wght@300&display=swap');
+
+body {
+font-family: 'Noto Serif JP', serif;
+}
+
+.img{
+  width:200px;
+  display:inline-block
+}
+
+.fan-icon{
+width: 25%;
+height:auto;
+}
+
+.container{
+margin-top: 200px;
+text-align: center;
+};
+
+.my-prof{
+  margin-bottom:250px;
+}
+
+.last-p{
+  margin-bottom: 100px;
+}
+
+a{
+   text-decoration:none;
+}
+
+.btn--orange,
+a.btn--orange {
+  padding: 10px;
+  color: #fff;
+  background-color: black;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background:gray;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+
+.p-margin{
+  margin:30px
+}
+
+.div-margin{
+  margin: 60px;
+}

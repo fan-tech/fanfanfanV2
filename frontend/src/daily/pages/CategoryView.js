@@ -44,7 +44,7 @@ export const CategoryView = () => {
         <h1>loading....</h1>
       ) : (
         <div className="categoryView-container">
-          <h1 className="category-title">{title}</h1>
+          <h1 className="category-title detail-date">{title}</h1>
           {category.map((c,index) => (
             <DailyCategory date={c.date} content={c.content} key={index} />
           ))}

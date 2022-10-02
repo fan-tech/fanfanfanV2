@@ -32,8 +32,10 @@ export const DailyDetail = () => {
       {loading ? (
         <h1>loading...</h1>
       ) : (
-        <div>
-          <h1>{detail.date}</h1>
+          <div className="daily-container">
+
+            <h1 className='detail-date'>{detail.date}</h1>
+
           <h1>今日したこと</h1>
           <div
             dangerouslySetInnerHTML={{

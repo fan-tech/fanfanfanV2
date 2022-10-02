@@ -6,6 +6,8 @@ import img2 from '../../images/daily/fan_good.png'
 import img3 from '../../images/daily/fan_soso.png'
 import img4 from '../../images/daily/fan_bad.png'
 
+import '../Daily.css';
+
 export const DailyContent = (daily) => {
   let eva;
   if (daily.evaluation === 'perfect') {
@@ -19,9 +21,9 @@ export const DailyContent = (daily) => {
   }
 
   return (
-    <div>
+    <div className='evaluation'>
       <Link to={`/daily/${daily.id}`}> <h1> {daily.date} </h1> </Link>
-      <img src ={eva} alt='{eva}'/>
+      <img src ={eva} alt='{eva}' className='img'/>
   </div >
   )
 }

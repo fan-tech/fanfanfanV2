@@ -3,6 +3,7 @@ import { getDaily } from '../api/getDaily'
 import { DailyContent } from '../components/DailyContent'
 import { CategoryList } from '../components/CategoryList'
 
+import '../Daily.css';
 
 export const DailyTop = () => {
   const initialState = {
@@ -30,7 +31,7 @@ export const DailyTop = () => {
       {loading ? (
         <h1>loading...</h1>
       ) : (
-        <div>
+        <div className='daily-top-container'>
           {daily.map((d,index) => (
             <DailyContent id={d.id} date={d.date} evaluation={d.evaluation} key={index} />
           ))}
