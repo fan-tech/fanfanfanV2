@@ -1,2 +1,2 @@
-# fanfanfanV2
+# fanfanfan
 ポートフォリオサイトの第二弾です。
