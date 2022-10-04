@@ -176,3 +176,4 @@ cython_debug/
 # Reactの部分
 # Created by https://www.toptal.com/developers/gitignore/api/react
 # Edit at https://www.toptal.com/developers/gitignore?templates=react
+local_settings
