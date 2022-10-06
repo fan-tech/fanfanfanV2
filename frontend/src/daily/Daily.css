@@ -27,7 +27,7 @@ margin:0 auto;
 .daily-container{
   border: 2px solid black;
   width: 700px;
-  margin: 0 auuto;
+  margin: 0 auto;
   padding:30px;
 }
 .categoryView-container{
@@ -93,13 +93,13 @@ margin:0 auto;
 
 .daily-container{
   border: 2px solid black;
-  width: 700px;
+  width: 80%;
   margin: 0 auto;
   padding:30px;
 }
 .categoryView-container{
   border: 2px solid black;
-  width: 700px;
+  width: 80%;
   margin: 0 auto;
   padding:30px;
 }
