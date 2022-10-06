@@ -32,7 +32,7 @@ export const CategoryView = () => {
     if (cat === 'done') {
       title = '今日したこと';
     } else if (cat === 'wanna_do') {
-      title = 'これからしたいこと';
+      title = 'これからすること';
     } else if (cat === 'other') {
       title = 'その他';
     } else {
