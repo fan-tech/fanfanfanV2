@@ -27,7 +27,11 @@ export const Profile = () => {
         <p>生年月日：1989年6月1日</p>
         <p>住んでいる場所：東京都</p>
         <p>スキ：音楽、写真撮影、動画編集、プログラミングなど</p>
-        <p className="last-p">特技：声楽</p>
+        <p>特技：声楽</p>
+        <p>
+          GitHub:<a target="blank" href="https://github.com/fan-tech">各種ソースコードはここから！</a>
+        </p>
+        <p className="last-p">Twitter：@fan_tech_</p>
       </div>
 
       <div className="my-done">
@@ -144,7 +148,8 @@ export const Profile = () => {
         <img src={movie} alt="{movie}" className="img" />
         <p>
           趣味の動画制作。 自分の制作したモノを紹介したりしている。
-          動画での紹介（リンク先はtwitter <br/>音が出ます!
+          動画での紹介（リンク先はtwitter <br />
+          音が出ます!
         </p>
         <p className="p-margin">
           <a
@@ -163,7 +168,7 @@ export const Profile = () => {
           >
             散歩
           </a>
-          </p>
+        </p>
       </div>
     </div>
   );
