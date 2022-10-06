@@ -137,6 +137,7 @@ export const Profile = () => {
         <h2>- FanFanFan V2 -</h2>
         <img src={noImg} alt="{noImg}" className="img" />
         <p>これ</p>
+      <p>バックエンドはDjango,フロントエンドはReactで出来てます。</p>
       </div>
       <div className="div-margin">
         <h2>- わがやの技術書検索くん -</h2>
