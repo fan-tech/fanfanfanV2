@@ -25,8 +25,6 @@ DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
-print(env.db())
-
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -87,11 +85,6 @@ WSGI_APPLICATION = 'daily_api.wsgi.application'
 DATABASES = {
     'default': env.db(),
 }
-
-# heroku用の設定
-import dj_database_url
-db_from_env = dj_database_url.config()
-DATABASES['default'].update(db_from_env)
 
 
 

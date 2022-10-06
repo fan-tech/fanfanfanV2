@@ -22,8 +22,8 @@ export const DailyContent = (daily) => {
 
   return (
     <div className='evaluation'>
-      <Link to={`/daily/${daily.id}`}> <h1> {daily.date} </h1> </Link>
-      <img src ={eva} alt='{eva}' className='img'/>
+      <Link to={`/daily/${daily.id}`}> <h1 className='eva-h1'> {daily.date} </h1> </Link>
+      <img src ={eva} alt='{eva}' className='eva-img'/>
   </div >
   )
 }

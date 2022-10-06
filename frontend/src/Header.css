@@ -31,3 +31,43 @@ justify-content: space-between;
 .header-li{
   padding-right: 20px;
 }
+
+  @media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .header-img{
+  width:100px;
+  height:auto;
+}
+.header-icon{
+  padding-top: 16px;
+}
+/* リスト */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header-container{
+  display:flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color:white;
+}
+
+.header-ul{
+  display:flex;
+  align-items: center;
+  padding-right:5px;
+}
+.header-li{
+  padding-right: 5px;
+}
+
+
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+}
