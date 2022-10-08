@@ -5,9 +5,9 @@ body{
 }
 
 .daily-top-container{
-max-width: 100%;
+max-width: 80%;
 display: flex;
-margin:0 auto;
+flex-wrap: wrap;
 }
 
 .eva-h1{
@@ -31,6 +31,7 @@ margin:0 auto;
   padding:30px;
 }
 .categoryView-container{
+  display:flex;
   border: 2px solid black;
   width: 700px;
   margin: 0 auto;
@@ -57,7 +58,9 @@ margin:0 auto;
   font-size: 15px;
 }
 
-
+.daily-top-container{
+  max-width: 90%;
+}
 .catrgory-ul{
       display: block;
 }
@@ -69,10 +72,11 @@ margin:0 auto;
 @media screen and (max-width: 959px) {
 	/* 959px以下に適用されるCSS（タブレット用） */
   .daily-top-container{
-max-width:100%;
+max-width:90%;
 height:auto;
 display: flex;
 margin:0 auto;
+flex-wrap: wrap;
 }
 .eva-h1{
   font-size:18px;
