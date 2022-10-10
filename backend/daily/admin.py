@@ -2,7 +2,6 @@ from django.contrib import admin
 from .models import Daily,Evaluation
 from markdownx.admin import MarkdownxModelAdmin
 from import_export import resources
-from import_export import fields,widgets
 from import_export.admin import ImportExportModelAdmin
 
 
