@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'markdownx',  # これと
     'daily',  # これ
+    'import_export'
 
 ]
 
